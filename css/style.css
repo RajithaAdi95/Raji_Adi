@@ -82,7 +82,7 @@ nav ul li{
 }
 .about-container{
 	width: 90%;
-	height: 200px;
+	height: 175px;
 	background-color: #FFFFFF;
 	border-radius: 20px;
 	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
@@ -90,11 +90,11 @@ nav ul li{
 	margin: -7% auto 20px auto;
 	position: relative;
 	justify-content: space-evenly;
-	align-items: center;
+	text-align: center;
 }
 .about-container button{
-	width: 150px;
-	height: 42px;
+	width: 155px;
+	height: 48px;
 	border-radius: 10px;
 	font-family: calibri;
 	font-weight: bold;
@@ -102,7 +102,13 @@ nav ul li{
 	outline: none;
 	margin: 0px 10px;
 }
-.down-cv{
+.down-cv1{
+	background-color: #0b0b0b;
+	color: #FFFFFF;
+	border: none;
+	cursor: pointer;
+}
+.down-cv2{
 	background-color: #0b0b0b;
 	color: #FFFFFF;
 	border: none;
@@ -113,43 +119,17 @@ button:active{
 }
 
 
-.social-container{
-	width: 90%;
+.form-container{
+	width: 95%;
 	height: 250px;
-	align-items: center;
-	background-color: lightgray;
+	background-color: #FFFFFF;
 	border-radius: 20px;
 	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-	margin:  20px auto;
-	/*display: flex;
-	margin: -7% auto 20px auto;
-	position: relative;*/
-}
-.social-icons a{
-	align-items: center;
-	width: 50px;
-	height: 50px;
 	display: flex;
-	justify-content: center;
+	margin: -1.5% auto 20px auto;
 	align-items: center;
-	background-color: #e6e3e3;
-	margin: 20px 10px;
-	border-radius: 50%;
-}
-.social-icons{
-	display: flex;
-}
-.social-icons i{
-	color: #000000;
-}
-.social-icons a:hover{
-	background-color: #000000;
-	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-	transition: all ease 0.5s;
-}
-.social-icons a:hover i{
-	color: #FFFFFF;
-	transition: all ease 0.5s;
+	/*position: relative;
+	justify-content: space-evenly;*/
 }
 
 footer{
@@ -171,6 +151,44 @@ footer{
 }
 footer p{
 	font-family: calibri;
+}
+.social-container{
+	width: 90%;
+	height: 250px;
+	align-items: center;
+	background-color: lightgray;
+	border-radius: 20px;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	margin:  20px auto; 
+	/*display: flex;
+	margin: -7% auto 20px auto;
+	position: relative;*/
+}
+.social-icons a{
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e6e3e3;
+	margin: 20px 10px;
+	border-radius: 50%;
+}
+.social-icons{
+	display: flex;
+}
+.social-icons i{
+	color: #000000;
+}
+.social-icons a:hover{
+	background-color: #000000;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	transition: all ease 0.5s;
+}
+.social-icons a:hover i{
+	color: #FFFFFF;
+	transition: all ease 0.5s;
 }
 .education{
 	background-color: gray;
