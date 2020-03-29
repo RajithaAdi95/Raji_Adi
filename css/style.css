@@ -88,17 +88,16 @@ nav ul li{
 	font-weight: bold;
 	color: #2d2a2a;
 }*/
-.text-container p{
-	line-height: 0px;
-	margin: 45px 0px 25px;
-}
 .text-container{
 	position: absolute;
 	left: 13%;
 	top:42%;
 	transform: translate(-13%,-42%);
 }
-
+.text-container p{
+	line-height: 0px;
+	margin: 45px 0px 25px;
+}
 .text-container p:nth-child(1){
 	font-family: calibri;
 	font-weight: bold;
@@ -112,11 +111,12 @@ nav ul li{
 	font-size: 20px;
 	line-height: 30px;
 	width: 550px;
+	position: relative;
 }
 
 .model{
 	height: 560px;
-	position: absolute;
+	position: fixed;
 	bottom: 40px;
 	left: 70%;
 	transform: translateX(-70%);
@@ -133,6 +133,16 @@ nav ul li{
 	justify-content: space-evenly;
 	text-align: center;
 }
+.about-container h1{
+	font-family:cursive;
+	font-size: 45px;
+}
+.about-container h2{
+	font-family: Courier New;
+}
+.about-container h2 a{
+	border-style: ridge;
+}
 .about-container button{
 	width: 155px;
 	height: 48px;
@@ -148,12 +158,14 @@ nav ul li{
 	color: #FFFFFF;
 	border: none;
 	cursor: pointer;
+	position: relative;
 }
 .down-cv2{
 	background-color: #0b0b0b;
 	color: #FFFFFF;
 	border: none;
 	cursor: pointer;
+	position: relative;
 }
 button:active{
 	transform: scale(1,1);
@@ -184,6 +196,7 @@ footer{
 	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
 	padding: 0px 5%;
 	border-radius: 5px;
+	position: relative;
 	/*
 	align-items: center;
 	height: 60px;
