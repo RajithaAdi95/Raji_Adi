@@ -132,6 +132,7 @@ nav ul li{
 	position: relative;
 	justify-content: space-evenly;
 	text-align: center;
+	opacity: 65%;
 }
 .about-container h1{
 	font-family:cursive;
