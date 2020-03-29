@@ -9,17 +9,33 @@
 <body>
 	<section>
 		<!--navigation-->
-		<nav>
+
+		<nav class="navbar">
+			<span class="navbar-toggle" id="js-navbar-toggle">
+				<i class="fa fa-bars"></i>
+			</span>
 			<!--logo---------------------------------------->
 			<a href="#" class="logo">Raji@Adi</a>
 			<!--menu---------------------------------------->
+			<ul class="main-nav" id="js-menu">
+				<li><a href="index.html" class="nav-links">Home</a></li>
+				<li><a href="about_me.html" class="nav-links">About me</a></li>
+				<li><a href="contact_me.html" class="active" class="nav-links">contact</a></li>
+				<li><a href="project.html" class="nav-links">Project</a></li>
+			</ul>
+		</nav>
+
+		<!--<nav>
+			logo---------------------------------------
+			<a href="#" class="logo">Raji@Adi</a>
+			menu---------------------------------------
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about_me.html">About me</a></li>
 				<li><a href="#" class="active">contact</a></li>
 				<li><a href="#">Project</a></li>
 			</ul>
-		</nav>
+		</nav>-->
 
 		<!--map and other details-->
 		<div style="background-color: gainsboro;">
@@ -72,5 +88,16 @@
 			<!--copyright-->
 		<p>Copright &copy; 2020 Rajitha Eranga | Powered by Raji@Adi</p>
 	</footer>
+</section>
+	<script type="text/javascript">
+    	let mainNav = document.getElementById('js-menu');
+		let navBarToggle = document.getElementById('js-navbar-toggle');
+
+		navBarToggle.addEventListener('click', function () {
+		    
+		    mainNav.classList.toggle('active');
+		});
+    </script>
+
 </body>
 </html>

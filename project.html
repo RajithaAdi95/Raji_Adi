@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Raji@Adi</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, maximum -scale=1.0">
+</head>
+<body>
+	<section>
+		<!--navigation-->
+		<nav class="navbar">
+			<span class="navbar-toggle" id="js-navbar-toggle">
+				<i class="fa fa-bars"></i>
+			</span>
+			<!--logo---------------------------------------->
+			<a href="#" class="logo">Raji@Adi</a>
+			<!--menu---------------------------------------->
+			<ul class="main-nav" id="js-menu">
+				<li><a href="index.html" class="nav-links">Home</a></li>
+				<li><a href="about_me.html" class="nav-links">About me</a></li>
+				<li><a href="contact_me.html" class="nav-links">contact</a></li>
+				<li><a href="#" class="active" class="nav-links">Project</a></li>
+			</ul>
+		</nav>
+		
+
+	<!--footer------------------------------------------------>
+	<footer>
+		<h1 style="text-align:center; font-size: 50px;">Connect With</h1>
+		<div class="social-icons">
+			<a href="https://www.facebook.com/rajitha.adihetty"><i class="fa fa-facebook-f"></i></a>
+			<a href="https://www.linkedin.com/in/rajitha-adihetty-9a22b9194/"><i class="fa  fa-linkedin"></i></a>
+			<a href="https://github.com/RajithaAdi95"><i class="fa fa-github"></i></a>
+			<a href="https://twitter.com/RAdihetty"><i class="fa fa-twitter"></i></a>
+			<a href="https://www.instagram.com/raji_adi/"><i class="fa fa-instagram"></i></a>
+		</div>
+			<!--copyright-->
+		<p>Copright &copy; 2020 Rajitha Eranga | Powered by Raji@Adi</p>
+	</footer>
+</section>
+	<script type="text/javascript">
+    	let mainNav = document.getElementById('js-menu');
+		let navBarToggle = document.getElementById('js-navbar-toggle');
+
+		navBarToggle.addEventListener('click', function () {
+		    
+		    mainNav.classList.toggle('active');
+		});
+    </script>
+</body>
+</html>
